@@ -167,6 +167,7 @@ body {
 .interface {
   width: 100%;
   height: 100vh;
+ 
   background-image: url(../images/interfacee.jpg);
   background-size: cover;
   position: relative;
@@ -548,22 +549,17 @@ body {
 
 .section5 {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   gap: 40px;
-
   align-items: flex-start;
   margin-top: 50px;
   border-radius: 8px;
-
 }
-
 .sec5 {
   width: 350px;
   height: 400px;
   position: relative;
   border-radius: 8px;
-  /* background-image: url(../images/); */
   background-size: cover;
 }
 .picoverlay {
@@ -574,40 +570,35 @@ body {
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
   transform:scalex(0);
-    opacity: 1;
-    transition: 1s
-
+  opacity: 1;
+  transition: 1s
 }
 .sec5 .pic54:hover .picoverlay{
   transform:scale(1);
 }
-
-.salma{
+.BC{
   width: 100%;
   height: 100%;
+  position: relative;
+
 
 }
-
 .pic51 {
   background-image: url(../images/cl.jpg);
   background-size: cover;
   position: relative;
 }
-.pic54 {
- width: 350px;
-  background-size: cover;
-  position: absolute;
-}
 
 .pic52 {
   background-image: url(../images/un\ \(2\).jpeg);
   background-size: cover;
+  position: relative;
 
 }
-
 .pic53 {
   background-image: url(../images/food.jpg);
   background-size: cover;
+  position: relative;
 }
 
 .pic51:hover {
@@ -621,6 +612,18 @@ body {
 .pic53:hover {
   transform: scale(1.02, 1.02);
 }
+.pic51:hover .picoverlay {
+  visibility: visible;
+  opacity: 1;
+}
+.pic52:hover .picoverlay {
+  visibility: visible;
+  opacity: 1;
+}
+.pic53:hover .picoverlay {
+  visibility: visible;
+  opacity: 1;
+}
 
 .section-details {
   display: flex;
@@ -628,162 +631,38 @@ body {
   justify-content: center;
   gap: 40px;
   align-items: flex-start;
-  margin-top: 10px;
+  margin-top: 40px;
+
+ text-align: center;
 }
 
 .sec-details {
   width: 350px;
   height: 120px;
 
-}
-
-.fa {
-  float: left;
-}
-
-.checked {
-  color: orange;
 }
 
 .p-sec5 {
   float: left;
   font-size: 20px;
   line-height: 35px;
-
 }
-
 .goal {
   float: left;
 }
-
 .spn {
   font-size: 15px;
   margin-right: 240px;
   margin-top: 10px;
 }
-
-.section6 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 40px;
-
-  align-items: flex-start;
-  margin-top: 50px;
-
-}
-
-.sec6 {
-  width: 350px;
-  height: 400px;
-  border-radius: 8px;
-  position: relative;
-
-}
-
-.pic61 {
-  background-image: url(../images/A\ mother\ and\ son\ homeless\ on\ the\ streets.jpg);
-  background-size: cover;
-}
-
-.pic62 {
-  background-image: url(../images/edu.jpg);
-  background-size: cover;
-}
-
-.pic63 {
-  background-image: url(../images/sec51.jpg);
-  background-size: cover;
-}
-
-.pic61:hover {
-  transform: scale(1.02, 1.02);
-}
-
-.pic62:hover {
-  transform: scale(1.02, 1.02);
-}
-
-.pic63:hover {
-  transform: scale(1.02, 1.02);
-}
-
-
-
-.pic51:hover .picoverlay {
-  visibility: visible;
-  opacity: 0.5;
-}
-
-.pic52:hover .picoverlay {
-  visibility: visible;
-  opacity: 0.5;
-}
-
-.pic53:hover .picoverlay {
-  visibility: visible;
-  opacity: 0.5;
-}
-
-.pic61:hover .picoverlay {
-  visibility: visible;
-  opacity: 0.5;
-}
-
-.pic62:hover .picoverlay {
-  visibility: visible;
-  opacity: 0.5;
-}
-
-.pic63:hover .picoverlay {
-  visibility: visible;
-  opacity: 0.5;
-}
-
 .fab {
-  font-size: 30px;
- 
+  font-size: 23px;
   color: #ffffff;
   background-color: #0f0c3e;
   padding: 0 10px;
- margin-bottom: 250px;
-}
-
-.sec6 .picoverlay a i {
-  margin: auto;
-  margin-left: 40px;
-  margin-top: 200px;
-}
-
-.section-details {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 40px;
-  align-items: flex-start;
-  margin-top: 10px;
-}
-
-.sec-details {
-  width: 350px;
-  height: 120px;
+ margin-bottom: 10px;
 
 }
-
-.fa {
-  float: left;
-}
-
-.checked {
-  color: rgb(255, 255, 43);
-}
-
-.p-sec6 {
-  float: left;
-  font-size: 20px;
-  line-height: 35px;
-}
-
-.goal {
-  float: left;
+.icons{
+  position: absolute;
 }
